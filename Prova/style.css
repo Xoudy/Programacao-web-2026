@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0e1626;
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.container p {
+  margin: 0;
+  color: #fefefe;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.planeta {
+  background: #141f35;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 14px;
+}
+
+.planeta h2 {
+  margin: 0 0 8px;
+  color: #fefefe;
+}
+
+.imagem {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #d8b98a, #a1876a);
+  flex-shrink: 0;
+}
+
+.mercurio { background: radial-gradient(circle at 35% 30%, #a89a8a, #7a6b5c); }
+.venus    { background: radial-gradient(circle at 35% 30%, #e6c27a, #b8863f); }
+.terra    { background: radial-gradient(circle at 35% 30%, #6fb3d9, #2e6f8e); }
+.marte    { background: radial-gradient(circle at 35% 30%, #d97a52, #a1462a); }
+.jupiter  { background: radial-gradient(circle at 35% 30%, #d8b98a, #b58a55); }
+.saturno  { background: radial-gradient(circle at 35% 30%, #e8d5a0, #c2a662); }
+.urano    { background: radial-gradient(circle at 35% 30%, #9fd9d6, #5aa3a0); }
+.netuno   { background: radial-gradient(circle at 35% 30%, #5f7fd0, #2f4a9c); }
+
+.planeta p {
+  margin: 0;
+  color: #fefefe;
+  line-height: 1.5;
+}
+
+.botao-sortear {
+  display: block;
+  margin: 0 auto;
+  background: #e8b34a;
+  color: #0e1626;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.botao-sortear:hover {
+  background: #d9a23a;
+}
+
+.caixa {
+  display: none;
+  margin: 16px auto 0;
+  max-width: 400px;
+  background: #141f35;
+  border: 1px solid #e8b34a;
+  border-radius: 6px;
+  padding: 16px;
+  color: #eef1f6;
+  text-align: center;
+}
