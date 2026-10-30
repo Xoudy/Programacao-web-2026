@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Produtos</title>
+</head>
+<body>
+
+<link rel="stylesheet" href="style.css"> 
+
+  <header>
+    <h1>Catálogo de Produtos</h1>
+    <form id="form-pesquisa">
+      <label for="campo-pesquisa" class="sr-only">Pesquisar produto</label>
+      <input type="search" id="campo-pesquisa" placeholder="Pesquisar produto por nome">
+      <button type="submit">Pesquisar</button>
+    </form>
+  </header>
+
+  <main>
+    <p id="status" role="status"></p>
+
+    <section>
+      <h2>Produtos</h2>
+      <div id="lista-produtos" class="lista"></div>
+    </section>
+
+    <section>
+      <h2>Favoritos</h2>
+      <div id="lista-favoritos" class="lista"></div>
+    </section>
+  </main>
+
+  <dialog id="detalhes">
+    <div id="conteudo-detalhes"></div>
+    <button type="button" id="fechar-detalhes">Fechar</button>
+  </dialog>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
